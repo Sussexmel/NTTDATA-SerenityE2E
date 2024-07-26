@@ -1,3 +1,6 @@
+#Rama Master
+- El código y las actualizaciones se encuentran en la rama master
+  
 # NTTDATA-SerenityE2E
 Reto-E2E--NTTDATA
 
