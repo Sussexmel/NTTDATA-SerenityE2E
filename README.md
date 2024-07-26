@@ -1,5 +1,6 @@
-#Rama Master
-- El código y las actualizaciones se encuentran en la rama master
+# **Rama Master**
+- El código y las actualizaciones se encuentran en la rama Master
+- Si usted está viendo esto es porque se encuentra en la rama Main
   
 # NTTDATA-SerenityE2E
 Reto-E2E--NTTDATA
