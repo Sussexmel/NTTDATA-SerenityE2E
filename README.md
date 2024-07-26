@@ -19,7 +19,8 @@ Sistema operativo: Windows 10-11
 ##2. Comandos de instalación
 - Clonar el repositorio: git clone https://github.com/Sussexmel/NTTDATA-SerenityE2E.git
   - git clone https://github.com/Sussexmel/NTTDATA.git
-- Navegue al directorio del proyecto y ejecute el siguiente comando: ./gradlew test
+- Navegue al directorio del proyecto y ejecute el siguiente comando:
+  -  ./gradlew test
 
 ##Referencia: 
 - Repositorio en Github: https://github.com/Sussexmel/NTTDATA.git
