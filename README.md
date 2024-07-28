@@ -25,7 +25,13 @@ Para configurar y ejecutar este proyecto en tu máquina local, asegúrate de ten
 ##2. Comandos de instalación
 - Clonar el repositorio: git clone https://github.com/Sussexmel/NTTDATA-SerenityE2E.git
     - git clone https://github.com/Sussexmel/NTTDATA.git
-- Navegue al directorio del proyecto y ejecute el siguiente comando: ./gradlew test
+
+##3. Instrucciones para ejecutar los test 
+- Abra una terminal en la raíz del proyecto y ejecute:
+  - ./gradlew test
+- Los reportes generados por Serenity se pueden encontrar en la siguiente ubicación:
+  - /build/reports/tests/test/index.html
+ 
   
 
 ##Referencia:
