@@ -1,17 +1,14 @@
 package org.example.runners;
 
-
-import io.cucumber.junit.CucumberOptions;
-import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 
-@RunWith(CucumberWithSerenity.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/agregar_productos_carrito.feature",
-        glue = "org/example",
-        snippets = CucumberOptions.SnippetType.CAMELCASE,
-        tags = "@successful")
-
+        features = "src/test/resources/features",
+        glue = "org.example.stepdefinition",
+        plugin = {"pretty", "html:target/cucumber-reports.html"}
+)
 public class RunnerE2E {
-
 }

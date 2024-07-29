@@ -1,37 +1,34 @@
 package org.example.tasks;
 
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Switch;
-import org.example.userinterfaces.ProductPage;
+import net.serenitybdd.screenplay.targets.Target;
+import org.example.ui.ProductPage;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class AddProductsToCart implements Task {
+    private final String product1;
+    private final String product2;
 
-    private final int quantity;
-
-    public AddProductsToCart(int quantity) {
-        this.quantity = quantity;
+    public AddProductsToCart(String product1, String product2) {
+        this.product1 = product1;
+        this.product2 = product2;
     }
 
-    public static AddProductsToCart withQuantity(int quantity) {
-        return instrumented(AddProductsToCart.class, quantity);
+    public static AddProductsToCart withProducts(String product1, String product2) {
+        return instrumented(AddProductsToCart.class, product1, product2);
     }
 
     @Override
-    public <T extends Actor> void performAs(T actor) {
+    public <T extends net.serenitybdd.screenplay.Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(org.example.ui.LoginPage.SAMSUNG_GALAXY_S6),
+                Click.on(ProductPage.productLink(product1)),
                 Click.on(ProductPage.ADD_TO_CART_BUTTON),
-                Switch.toAlert().andAccept(),
-                Click.on(org.example.ui.LoginPage.HOME_LINK),
-                Click.on(org.example.ui.LoginPage.NEXUS_6),
-                Click.on(ProductPage.ADD_TO_CART_BUTTON),
-                Switch.toAlert().andAccept(),
-                Click.on(org.example.ui.LoginPage.CART_LINK)
-
+                // Agregar espera o confirmación si es necesario
+                Click.on(ProductPage.HOME_LINK),
+                Click.on(ProductPage.productLink(product2)),
+                Click.on(ProductPage.ADD_TO_CART_BUTTON)
         );
     }
 }

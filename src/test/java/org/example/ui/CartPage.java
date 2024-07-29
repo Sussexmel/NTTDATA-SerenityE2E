@@ -20,4 +20,7 @@ public class CartPage {
             .located(By.id("year"));
     public static final Target PURCHASE_BUTTON = Target.the("purchase button")
             .located(By.xpath("//button[contains(text(),'Purchase')]"));
+    public static final Target PURCHASE_SUCCESS_MESSAGE = Target.the("purchase success message")
+            .located(By.xpath("//h2[contains(text(),'Thank you for your purchase')]"));
+
 }

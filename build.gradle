@@ -40,11 +40,20 @@ ext {
     logbackVersion = '1.2.10'
     lombokVersion = '1.18.22'
     log4jVersion = '2.17.1'
+    serenityScreenplayVersion = '3.3.4'  // Añadido
+    serenityScreenplayWebdriverVersion = '3.3.4'  // Añadido
 }
 
 dependencies {
-    testImplementation ("net.serenity-bdd:serenity-core:${serenityCoreVersion}"){
-        exclude group: 'org.apache.groovy', module: 'groovy'
+    testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}"
+    testImplementation "net.serenity-bdd:serenity-screenplay:${serenityScreenplayVersion}"
+    testImplementation "net.serenity-bdd:serenity-screenplay-webdriver:${serenityScreenplayWebdriverVersion}"
+
+    // Excluye dependencias si es necesario
+    configurations {
+        all {
+            exclude group: 'org.apache.groovy', module: 'groovy'
+        }
     }
     implementation "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}"
     implementation "net.serenity-bdd:serenity-junit5:${serenityCoreVersion}"
