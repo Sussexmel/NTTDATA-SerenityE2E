@@ -9,18 +9,21 @@
 
 ##Prerequisitos
 - Para configurar y ejecutar este proyecto en tu máquina local, asegúrese de tener las siguientes versiones de dependencias y tecnologías:
-
-Sistema operativo: Windows 10-11
-- IDE: IntelliJ IDEA versión 2024.1.4
-- Maven: versión 3.9.8 (asegúrate de que esté en la variable de entorno)
-- JDK: versión 17.0.12 (asegúrate de que esté en la variable de entorno)
-- Gradle: versión 8.5 (asegúrate de que esté en la variable de entorno)
+  - Sistema operativo: Windows 10-11
+  - IDE: IntelliJ IDEA versión 2024.1.4
+  - Maven: versión 3.9.8 (asegúrate de que esté en la variable de entorno)
+  - JDK: versión 17.0.12 (asegúrate de que esté en la variable de entorno)
+  - Gradle: versión 8.5 (asegúrate de que esté en la variable de entorno)
 
 ##2. Comandos de instalación
-- Clonar el repositorio: git clone https://github.com/Sussexmel/NTTDATA-SerenityE2E.git
-  - git clone https://github.com/Sussexmel/NTTDATA.git
-- Navegue al directorio del proyecto y ejecute el siguiente comando:
-  -  ./gradlew test
+- Clonar el repositorio:
+  - git clone https://github.com/Sussexmel/NTTDATA-SerenityE2E.git
+  
+##3. Instrucciones para ejecutar los test
+- Abra una terminal en la raíz del proyecto y ejecute:
+  - ./gradlew test
+- Los reportes generados por Serenity se pueden encontrar en la siguiente ubicación:
+  - /build/reports/tests/test/index.html
 
-##Referencia: 
+##Referencia:
 - Repositorio en Github: https://github.com/Sussexmel/NTTDATA.git
