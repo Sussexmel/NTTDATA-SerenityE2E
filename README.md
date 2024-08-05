@@ -5,15 +5,15 @@
 #SerenityE2E
 
 ##Descipción
-Prueba funcional automatizada (Prueba E2E) de un flujo de compra en la página
-URL: https://www.demoblaze.com/
-• Agregar dos productos al carrito
-• Visualizar el carrito
-• Completar el formulario de compra
-• Finalizar la compra
+- Automatizacion E2E de un flujo de compra en la página
+- URL: https://www.demoblaze.com/
+- Agregar dos productos al carrito
+- Visualizar el carrito
+- Completar el formulario de compra
+- Finalizar la compra
 
 ## Prerequisitos
-Para configurar y ejecutar este proyecto en tu máquina local, asegúrate de tener las siguientes versiones de dependencias y tecnologías:
+- Para configurar y ejecutar este proyecto en tu máquina local, asegúrate de tener las siguientes versiones de dependencias y tecnologías:
 
 - Sistema operativo: Windows 10
 - IDE: IntelliJ IDEA versión 2024.1.4
