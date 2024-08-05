@@ -1,4 +1,4 @@
-# Reto-E2E--NTTDATA
+# Automatizacion-E2E
 
 ##Descipción 
 - Prueba funcional automatizada (Prueba E2E) de un flujo de compra en la página URL: https://www.demoblaze.com/
@@ -17,7 +17,7 @@
 
 ##2. Comandos de instalación
 - Clonar el repositorio:
-  - git clone https://github.com/Sussexmel/NTTDATA-SerenityE2E.git
+  - git clone https://github.com/Sussexmel/SerenityE2E.git
   
 ##3. Instrucciones para ejecutar los test
 - Abra una terminal en la raíz del proyecto y ejecute:
@@ -26,4 +26,4 @@
   - /build/reports/tests/test/index.html
 
 ##Referencia:
-- Repositorio en Github: https://github.com/Sussexmel/NTTDATA.git
+- Repositorio en Github: https://github.com/Sussexmel/SerenityE2E.git
