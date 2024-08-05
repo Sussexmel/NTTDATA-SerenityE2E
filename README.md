@@ -2,8 +2,7 @@
 - El código y las actualizaciones se encuentran en la rama Master
 - Si usted está viendo esto es porque se encuentra en la rama Main
   
-# NTTDATA-SerenityE2E
-Reto-E2E--NTTDATA
+#SerenityE2E
 
 ##Descipción
 Prueba funcional automatizada (Prueba E2E) de un flujo de compra en la página
@@ -23,9 +22,9 @@ Para configurar y ejecutar este proyecto en tu máquina local, asegúrate de ten
 - Gradle: versión 8.5 (asegúrate de que esté en la variable de entorno)
 
 ##2. Comandos de instalación
-- Clonar el repositorio: git clone https://github.com/Sussexmel/NTTDATA-SerenityE2E.git
-    - git clone https://github.com/Sussexmel/NTTDATA.git
-
+- Clonar el repositorio: git clone https://github.com/Sussexmel/SerenityE2E.git
+    - git clone https://github.com/Sussexmel/SerenityE2E.git
+  
 ##3. Instrucciones para ejecutar los test 
 - Abra una terminal en la raíz del proyecto y ejecute:
   - ./gradlew test
@@ -35,4 +34,4 @@ Para configurar y ejecutar este proyecto en tu máquina local, asegúrate de ten
   
 
 ##Referencia:
--Repositorio en Github: https://github.com/Sussexmel/NTTDATA.git
+-Repositorio en Github: https://github.com/Sussexmel/SerenityE2E.git
